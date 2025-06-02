@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Develop\\AnalysisSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|d:\\develop\\analysissample\\analysissample\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|solutionrelative:analysissample\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|d:\\develop\\analysissample\\analysissample\\analysissample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|solutionrelative:analysissample\\analysissample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|d:\\develop\\analysissample\\analysissample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|solutionrelative:analysissample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|d:\\develop\\analysissample\\analysissample\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4D8BA6-B562-41AF-B620-A7F9BC802E38}|AnalysisSample\\AnalysisSample.csproj|solutionrelative:analysissample\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnalysisSample",
+              "DocumentMoniker": "D:\\Develop\\AnalysisSample\\AnalysisSample\\AnalysisSample.csproj",
+              "RelativeDocumentMoniker": "AnalysisSample\\AnalysisSample.csproj",
+              "ToolTip": "D:\\Develop\\AnalysisSample\\AnalysisSample\\AnalysisSample.csproj",
+              "RelativeToolTip": "AnalysisSample\\AnalysisSample.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-01T19:55:24.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "D:\\Develop\\AnalysisSample\\AnalysisSample\\.editorconfig",
+              "RelativeDocumentMoniker": "AnalysisSample\\.editorconfig",
+              "ToolTip": "D:\\Develop\\AnalysisSample\\AnalysisSample\\.editorconfig",
+              "RelativeToolTip": "AnalysisSample\\.editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-31T01:18:10.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Develop\\AnalysisSample\\AnalysisSample\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AnalysisSample\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Develop\\AnalysisSample\\AnalysisSample\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AnalysisSample\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T03:30:40.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Develop\\AnalysisSample\\AnalysisSample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AnalysisSample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Develop\\AnalysisSample\\AnalysisSample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AnalysisSample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T01:10:45.849Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
