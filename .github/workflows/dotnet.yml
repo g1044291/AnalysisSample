@@ -1,21 +1,46 @@
 name: .NET
 on:
   push:
-    branches: ['*']
+    branches: ['**']
   pull_request:
     branches: [ master ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
-    - name: Restore
-      run: |
-        dotnet restore
-    - name: Build
-      run: |
-        dotnet build --no-restore -warnaserror -clp:NoSummary
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore -warnaserror -clp:NoSummary
+
+      - name: Extract Issue Number from Commit Message
+        id: extract_issue
+        run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=format:%s)
+          ISSUE_NUMBER=$(echo "$COMMIT_MESSAGE" | grep -oP '(?<=#)\d+')
+          echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_ENV
+
+      - name: Post result to Issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = process.env.ISSUE_NUMBER || 1; // 取得できない場合のデフォルト値
+            const result = '${{ job.status }}';
+            github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: `Workflow result:\n${result}`
+            });
